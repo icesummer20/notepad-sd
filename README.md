@@ -46,21 +46,24 @@ notepad-sd는 흰색 번쩍임이 없지만,<br>
 (검은색으로 하면 윈도우 일반 Edit컨트롤의 글자 색상 때문에 알아볼수 없게 됩니다)<br>
 (나중에 마이크로소프트가 윈도우 업데이트로 해결할 가능성이 있습니다)<br>
 
-<img width="323" height="372" alt="RegEdit-WhiteFlashBang_r" src="https://github.com/user-attachments/assets/bae80a3d-73cc-4bd2-84cd-5cce3f2d3188" /><br>
+<img width="646" height="745" alt="RegEdit-WhiteFlashBang" src="https://github.com/user-attachments/assets/3ad0f937-4593-4a69-a9a4-69fe089363e6" />
+<br>
 <img width="1018" height="400" alt="FontDialog-WhiteTextBG" src="https://github.com/user-attachments/assets/7d7a3a2a-b281-4c0c-8488-66d15c00c629" /><br>
 
 <br><br>
 
 
 
-<img width="306" height="91" alt="overwrite_r" src="https://github.com/user-attachments/assets/a66baa53-a671-49f2-8795-0d5288da31eb" /><br>
+<img width="612" height="182" alt="overwrite" src="https://github.com/user-attachments/assets/e1651f75-abb4-4fae-a93e-9166998adadb" />
+<br>
 파일 다이얼로그의 덮어쓰기 확인 창, 읽기 전용 파일 안내 창도 다크 테마로 만들었지만<br>
-텍스트가 나라별 언어와 일치하지 않아서 미적용.<br><br>
+텍스트가 나라별 언어와 일치하지 않아서 미적용.<br><br><br>
 
-<img width="453" height="75" alt="InActiveCaptionBar_r" src="https://github.com/user-attachments/assets/b608a575-7d5f-4b02-91d8-781086fe7af4" /><br>
+<img width="906" height="150" alt="InActiveCaptionBar" src="https://github.com/user-attachments/assets/2c8fb947-7513-4902-bb7a-0e983a243e79" />
+<br>
 Windows 11에서는 비활성 창의 타이틀바 컬러가 다크 테마가 아니라서<br>
 릴리즈의 <br>ColorChange-InActiveCaptionBar-forWindows11.reg를 등록하여 어두운 색으로 변경할 수 있습니다.<br>
-(Windows 전체에 적용 됨. Windows 10에서는 정상)<br><br>
+(Windows 전체에 적용 됨. Windows 10에서는 정상)<br><br><br>
 
 <img width="233" height="181" alt="시스템메뉴" src="https://github.com/user-attachments/assets/327a137a-e6bb-48ba-950b-eb6c0ea6f7c2" /><br>
 시스템 메뉴 아이콘은 가볍게 읽어 올수 있는걸로 사용.<br>
