@@ -30,7 +30,9 @@ Word Break를 변경해서 워드워랩과 Ctrl + Left, Ctrl + Right, Ctrl + Bac
 <img width="578" height="316" alt="이전 버전의 Microsoft IME-3r" src="https://github.com/user-attachments/assets/7e2dfa09-4cca-43f3-8b69-c5a2d5f23c71" /><br>
 일본어 등도 그런지 모르겠지만, 한글 Windows 11 사용자는 IME버그 때문에<br>
 윈도우 설정에서 '이전 버전의 Microsoft IME사용'을 활성화해야<br>
-텍스트 입력시 마지막 글자가 사라지거나 Edit컨트롤이 멈추는 현상이 사라집니다.<br><br>
+텍스트 입력시 마지막 글자가 사라지거나 Edit컨트롤이 멈추는 현상이 사라집니다.<br>
+한글 사용자는 한글 지원 폰트(맑은 고딕 등)를 사용해야 한글 텍스트 입력시 Edit컨트롤이 덜 깜빡입니다.<br>
+(글자 조합형 언어이거나 영어 이외의 언어에서 발생 가능성)<br><br>
 
 <img width="1019" height="613" alt="FileDialog-WhiteFlashBang" src="https://github.com/user-attachments/assets/208fc893-78a2-457d-9c84-67aeefc50a9b" /><br>
 
