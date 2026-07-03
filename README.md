@@ -12,7 +12,7 @@ Required minimum OS : Windows 10 1809 x64
 100% 다크 테마 레거시 메모장(폰트 선택 다이얼로그의 일부 컨트롤 제외)
 
 창 위치, 폰트 등 Microsoft의 레거시 메모장 설정을 같이 사용합니다.<br>
-메모장 종료시 레지스트리에 저장하는 것을 제거해서 항상 같은 창 위치로 실행 됩니다.<br>
+메모장 종료시 레지스트리에 설정 저장하는 것을 제거해서 항상 같은 창 위치로 실행 됩니다.<br>
 메뉴-Settings-Save Settings Now로 저장할 수 있습니다.<br>
 Paste Board와 Always On Top의 체크 상태는 저장되지 않습니다.<br><br>
 실행후 단축키로 활성화 할 수 있지만, 바로 가기를 만들어<br>
@@ -25,14 +25,16 @@ Word Break를 변경해서 워드워랩과 Ctrl + Left, Ctrl + Right, Ctrl + Bac
 선택되는 텍스트가 마이크로소프트 메모장하고 다릅니다.
 
 기존 버그와 윈도우 버그도 몇가지 해결하였고<br>
-텍스트 파일의 바로 가기를 드래그 앤 드롭으로 열수 있게 하였습니다.<br><br>
+텍스트 파일의 바로 가기를 드래그 앤 드롭으로 열수 있게 하였습니다.<br>
+프린트 기능은 삭제하였습니다.<br><br>
 
 <img width="578" height="316" alt="이전 버전의 Microsoft IME-3r" src="https://github.com/user-attachments/assets/7e2dfa09-4cca-43f3-8b69-c5a2d5f23c71" /><br>
 일본어 등도 그런지 모르겠지만, 한글 Windows 11 사용자는 IME버그 때문에<br>
 윈도우 설정에서 '이전 버전의 Microsoft IME사용'을 활성화해야<br>
 텍스트 입력시 마지막 글자가 사라지거나 Edit컨트롤이 멈추는 현상이 사라집니다.<br>
 한글 사용자는 한글 지원 폰트(맑은 고딕 등)를 사용해야 한글 텍스트 입력시 Edit컨트롤이 덜 깜빡입니다.<br>
-(글자 조합형 언어이거나 영어 이외의 언어에서 발생 가능성)<br><br>
+(글자 조합형 언어이거나 영어 이외의 언어에서 발생 가능성이 있습니다.)<br>
+(텍스트 입력 외에는 깜빡임 최소화 처리를 하였습니다.)<br><br>
 
 <img width="1019" height="613" alt="FileDialog-WhiteFlashBang" src="https://github.com/user-attachments/assets/208fc893-78a2-457d-9c84-67aeefc50a9b" /><br>
 
@@ -59,13 +61,15 @@ notepad-sd는 흰색 번쩍임이 없지만,<br>
 <img width="612" height="182" alt="overwrite" src="https://github.com/user-attachments/assets/e1651f75-abb4-4fae-a93e-9166998adadb" />
 <br>
 파일 다이얼로그의 덮어쓰기 확인 창, 읽기 전용 파일 안내 창도 다크 테마로 만들었지만<br>
-텍스트가 나라별 언어와 일치하지 않아서 미적용.<br><br><br>
+텍스트가 나라별 언어와 일치하지 않아서 미적용.<br>
+(나중에 마이크로소프트가 윈도우 업데이트로 해결할 가능성이 있습니다)<br><br><br>
 
 <img width="906" height="150" alt="InActiveCaptionBar" src="https://github.com/user-attachments/assets/2c8fb947-7513-4902-bb7a-0e983a243e79" />
 <br>
 Windows 11에서는 비활성 창의 타이틀바 컬러가 다크 테마가 아니라서<br>
 릴리즈의 <br>ColorChange-InActiveCaptionBar-forWindows11.reg를 등록하여 어두운 색으로 변경할 수 있습니다.<br>
-(Windows 전체에 적용 됨. Windows 10에서는 정상)<br><br><br>
+(Windows 전체에 적용 됨. Windows 10에서는 정상)<br>
+(나중에 마이크로소프트가 윈도우 업데이트로 해결할 가능성이 있습니다)<br><br><br>
 
 <img width="233" height="181" alt="시스템메뉴" src="https://github.com/user-attachments/assets/327a137a-e6bb-48ba-950b-eb6c0ea6f7c2" /><br>
 시스템 메뉴 아이콘은 가볍게 읽어 올수 있는걸로 사용.<br>
