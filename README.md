@@ -34,7 +34,7 @@ Word Break를 변경해서 워드워랩과 Ctrl + Left, Ctrl + Right, Ctrl + Bac
 텍스트 입력시 마지막 글자가 사라지거나 Edit컨트롤이 멈추는 현상이 사라집니다.<br>
 한글 사용자는 한글 지원 폰트(맑은 고딕 등)를 사용해야 한글 텍스트 입력시 Edit컨트롤이 덜 깜빡입니다.<br>
 (글자 조합형 언어이거나 영어 이외의 언어에서 발생 가능성이 있습니다.)<br>
-(텍스트 입력 외에는 깜빡임 최소화 처리를 하였습니다.)<br><br>
+기능 개선 버전(notepad-sd+.zip)은 깜빡임 최소화 처리를 하였습니다.(flicker free 99%)<br><br>
 
 <img width="1019" height="613" alt="FileDialog-WhiteFlashBang" src="https://github.com/user-attachments/assets/208fc893-78a2-457d-9c84-67aeefc50a9b" /><br>
 
@@ -45,7 +45,7 @@ notepad-sd는 흰색 번쩍임이 없지만,<br>
 파일 다이얼로그는 흰색으로 번쩍이는데, 이는 윈도우 소유라서<br>
 릴리즈에 있는 <br>ColorChange-WhiteFlashBang.reg를 등록하여<br>
 윈도우 컬러를 회색으로 변경하는걸로 완화할 수 있습니다.<br><br>
-(레지스트리 HKEY_CURRENT_USER\Control Panel\Colors의 Window 밸류)<br>
+(레지스트리 HKEY_CURRENT_USER\Control Panel\Colors의 Window 밸류. 레지스트리 등록 후 윈도우 로그오프나 재부팅을 해야 적용됩니다.)<br>
 (작업관리자 등, Windows 전체에 적용 됨. Windows 11 25H2 26200.7462기준)<br>
 (검은색으로 하면 윈도우 일반 Edit컨트롤의 글자 색상 때문에 알아볼수 없게 됩니다)<br>
 (나중에 마이크로소프트가 윈도우 업데이트로 해결할 가능성이 있습니다)<br>
@@ -68,7 +68,7 @@ notepad-sd는 흰색 번쩍임이 없지만,<br>
 <br>
 Windows 11에서는 비활성 창의 타이틀바 컬러가 다크 테마가 아니라서<br>
 릴리즈의 <br>ColorChange-InActiveCaptionBar-forWindows11.reg를 등록하여 어두운 색으로 변경할 수 있습니다.<br>
-(Windows 전체에 적용 됨. Windows 10에서는 정상)<br>
+(Windows 전체에 적용 됨. Windows 10에서는 정상. 레지스트리 등록 후 윈도우 로그오프나 재부팅을 해야 적용됩니다.)<br>
 (나중에 마이크로소프트가 윈도우 업데이트로 해결할 가능성이 있습니다)<br><br><br>
 
 <img width="233" height="181" alt="시스템메뉴" src="https://github.com/user-attachments/assets/327a137a-e6bb-48ba-950b-eb6c0ea6f7c2" /><br>
