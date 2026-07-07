@@ -1,6 +1,5 @@
 # notepad-sd
-fully dark theme legacy notepad without white flashbang
-and almost flicker free(notepad-sd+.zip)
+fully dark theme legacy notepad without white flashbang(all version) and almost flicker free(notepad-sd+.zip)
 
 yeah xp to.. 10<br>100% c/c++ win32api LOL<br>
 (c#, uwp, winui is slow & heavy. very bad.)<br><br>
