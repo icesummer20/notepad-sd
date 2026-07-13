@@ -73,6 +73,6 @@ Windows 11에서는 비활성 창의 타이틀바 컬러가 다크 테마가 아
 
 <img width="233" height="181" alt="시스템메뉴" src="https://github.com/user-attachments/assets/327a137a-e6bb-48ba-950b-eb6c0ea6f7c2" /><br>
 시스템 메뉴 아이콘은 가볍게 읽어 올수 있는걸로 사용.<br><br><br>
-<img width="594" height="679" alt="기능추가버전메뉴" src="https://github.com/user-attachments/assets/5ca00961-2c83-4a35-9b9f-ba3e2057dd17" /><br>
+<img width="573" height="728" alt="기능추가버전메뉴" src="https://github.com/user-attachments/assets/5e12242b-5006-469f-b67f-2d12160be533" /><br>
 기능 추가 버전의 메뉴와 팝업 메뉴<br>
 
